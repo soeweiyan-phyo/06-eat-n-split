@@ -1,4 +1,3 @@
-import { setSelectionRange } from "@testing-library/user-event/dist/utils";
 import { useState } from "react";
 
 const initialFriends = [
