@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 🍽️ Eat'N Split 🍽️
+
+Welcome to the "06-Eat-N-Split" project! This is a React-based application designed to help friends split their bills and keep track of expenses.
+
+## Features
+
+1. **Add Friends**: Easily add friends and keep track of their expenses.
+2. **Split Bills**: Input the total bill and your expense, and the app will calculate how much each friend owes.
+3. **Interactive UI**: Select a friend and view their expenses, add new friends, or split bills with ease.
+4. **Visual Indicators**: See at a glance who owes you money, who you owe, or if you're even.
+
+## Components Overview
+
+- **App**: The main component that orchestrates the entire application. It manages friends, bill splitting, and UI interactions.
+- **FriendsList**: Displays a list of friends and their current balances.
+- **Friend**: Represents a single friend and their balance.
+- **FormAddFriend**: Allows users to add new friends to the list.
+- **FormSplitBill**: Enables users to split a bill with a selected friend.
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Installation
 
-In the project directory, you can run:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install the required dependencies.
+4. Run `npm start` to start the development server. The app will be accessible at [http://localhost:3000](http://localhost:3000).
 
-### `npm start`
+### Available Scripts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `npm start`: Runs the app in development mode.
+- `npm test`: Launches the test runner.
+- `npm run build`: Builds the app for production.
+- `npm run eject`: Ejects the build tool and configuration. (Use with caution!)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Credit
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Master modern React from beginner to advanced! Context API, React Query, Redux Toolkit, Tailwind, advanced patterns (by Jonas Schmedtmann) (Udemy)
