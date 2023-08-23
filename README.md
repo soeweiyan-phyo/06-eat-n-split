@@ -35,6 +35,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - `npm run build`: Builds the app for production.
 - `npm run eject`: Ejects the build tool and configuration. (Use with caution!)
 
-### Credit
+## Credit
 
-- Master modern React from beginner to advanced! Context API, React Query, Redux Toolkit, Tailwind, advanced patterns (by Jonas Schmedtmann) (Udemy)
+Master modern React from beginner to advanced! Context API, React Query, Redux Toolkit, Tailwind, advanced patterns (by Jonas Schmedtmann) (Udemy)
